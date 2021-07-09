@@ -17,6 +17,7 @@ import {
   NbDialogModule,
   NbMenuModule,
   NbSidebarModule,
+  NbThemeModule,
   NbToastrModule,
   NbWindowModule,
 } from '@nebular/theme';
@@ -36,6 +37,7 @@ import {
     NbDialogModule.forRoot(),
     NbWindowModule.forRoot(),
     NbToastrModule.forRoot(),
+    NbThemeModule.forRoot({ name: 'aquamarine' }),
     NbChatModule.forRoot({
       messageGoogleMapKey: 'AIzaSyA_wNuCzia92MAmdLRzmqitRGvCF7wCZPY',
     }),
